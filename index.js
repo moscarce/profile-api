@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
   res.status(200).json({
     email: "oluwa14tobi@gmail.com",
     current_datetime: new Date().toISOString(),
-    github_url: "https://github.com/yourusername/your-repo",
+    github_url: "https://github.com/moscarce/profile-api",
   });
 });
 
